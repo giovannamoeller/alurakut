@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
+  img {
+    border-radius: 8px;
+  }
   background: #FFFFFF;
   border-radius: 8px;
   padding: 16px;
@@ -55,4 +58,5 @@ export const Box = styled.div`
     border-radius: 10000px;
     background-color: #6F92BB;
   }
+
 `; 

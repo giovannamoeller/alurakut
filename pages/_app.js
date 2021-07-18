@@ -26,6 +26,12 @@ const GlobalStyle = createGlobalStyle`
     display: block;
   }
 
+  @media (max-width: 860px) {
+    .image {
+      width: 20px !important;
+    }
+  }
+
   ${AlurakutStyles}
 `
 
